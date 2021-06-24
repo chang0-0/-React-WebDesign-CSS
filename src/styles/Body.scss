@@ -8,6 +8,98 @@
   -webkit-font-smoothing: antialiased;
 }
 
+.logo {
+  position: absolute;
+  top: 87px;
+  left: 70px;
+}
+
+.logoImg {
+  width: 100px;
+}
+
+.site_title {
+  position: absolute;
+  bottom: 70px;
+  left: 86px;
+  font-weight: 800;
+  font-size: 22px;
+  letter-spacing: -0.55px;
+  z-index: 1;
+}
+
+.main_title {
+  font-size: 8vw;
+  font-family: "Nanum Myeongjo";
+  font-weight: 700;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  margin-top: -10vw;
+  margin-left: -28vw;
+}
+
+.sub_title {
+  font-size: 1.2vw;
+  font-weight: 500;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  margin-top: 10vw;
+  margin-left: -9vw;
+}
+
+.copyright {
+  position: absolute;
+  transform: rotate(90deg);
+  top: 290px;
+  right: -130px;
+  font-size: 22px;
+  letter-spacing: -0.5px;
+  font-weight: 800;
+}
+
+.sns_section {
+  position: fixed;
+  bottom: 60px;
+  right: 77px;
+  font-size: 20px;
+  z-index: 2;
+}
+
+.sns_section .sns_deco {
+  display: inline-block;
+  width: 110px;
+  height: 3px;
+  background: #353535;
+  vertical-align: middle;
+  margin-top: -5px;
+  margin-right: 40px;
+}
+
+.sns_section {
+  ul {
+    display: inline-block;
+  }
+
+  ul li {
+    font-weight: 800;
+    font-size: 22px;
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: middle;
+  }
+
+  ul li :first-child {
+    margin-left: 0px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 ul,
 li {
   margin: 0px;
