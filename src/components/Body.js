@@ -27,10 +27,10 @@ const Body = () => {
         <span className="sns_deco"></span>
         <ul className={cn("sns_section_ul")}>
           <li className={cn("sns_section_li")}>
-            <a href="https://www.instagram.com/_chang0_0/">In</a>
+            <a href="https://www.instagram.com/">In</a>
           </li>
           <li className={cn("sns_section_li")}>
-            <a href="https://velog.io/@lifeisbeautiful">Ve</a>
+            <a href="https://velog.io">Ve</a>
           </li>
         </ul>
       </div>
