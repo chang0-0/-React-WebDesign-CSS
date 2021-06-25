@@ -4,6 +4,8 @@ import "../styles/Body.scss";
 import colorpaper from "../images/colorpaper.jpg";
 import sunset from "../images/sunset.jpg";
 
+import sky from "../images/sky.jpg";
+
 const Body = () => {
   return (
     <div>
@@ -95,8 +97,16 @@ const Body = () => {
       <div className={cn("intro_section5")}>
         <div className={cn("main_section_tl")}>
           <div className={cn("img_section")}>
-            <img src={sunset} alt="img" />
+            <img src={sky} alt="img" />
           </div>
+          <div className={cn("img_block")}>
+            <div className={cn("main_title5")}>
+              디자이너의 시각에서 디자이너에게 필요한 개발 공부를 고민했습니다.
+              <br />
+              직접 실무에서 경험한 필요한 스킬들 노하우들을 알려드립니다.
+            </div>
+          </div>
+          <div className={cn("deco_title")}>Curriculum</div>
         </div>
       </div>
       <div className="sns_section">

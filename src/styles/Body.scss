@@ -161,6 +161,53 @@
   }
 }
 
+.intro_section5 {
+  margin: 100px 0px;
+
+  .main_section_tl {
+    text-align: right;
+    position: relative;
+
+    .img_section {
+      display: inline-block;
+      width: 83vw;
+      height: 900px;
+      overflow: hidden;
+    }
+
+    .img_block {
+      position: absolute;
+      bottom: 0px;
+      left: 0%;
+      width: 50%;
+      height: 40%;
+      background-color: #fff;
+
+      .main_title5 {
+        margin-top: 9vw;
+        margin-right: 5vw;
+        font-weight: 600;
+        font-size: 20px;
+        color: #353535;
+        text-align: right;
+        line-height: 40px;
+      }
+    }
+
+    .deco_title {
+      font-weight: 800;
+      position: absolute;
+      top: 27vw;
+      left: -5vw;
+      font-size: 22vw;
+      color: #494949;
+      line-height: 0px;
+      letter-spacing: -1vw;
+      z-index: 3;
+    }
+  }
+}
+
 .sns_section {
   position: fixed;
   bottom: 60px;
