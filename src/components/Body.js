@@ -118,9 +118,20 @@ const Body = () => {
           수강신청 상황 및 수업관련 진행문의는 아래 연락처를 통해 문의해주세요.
         </div>
         <div className={cn("contact_summary")}>
-          <div className={cn("cs_item")}>ColorPaper</div>
-          <div className={cn("cs_item")}>Adredss Email</div>
-          <div className={cn("cs_item")}>Cost Hour</div>
+          <div className={cn("cs_item")}>
+            ColorPaper
+            <br />
+            +82 10 1234 5678
+          </div>
+          <div className={cn("cs_item")}>
+            Republic Of Korea, Seoul
+            <br />
+            admit@naver.com
+          </div>
+          <div className={cn("cs_item")}>
+            Cost 480,000/ 1month <br />
+            12hour(3hour*4th)
+          </div>
         </div>
         <div className={cn("contact_form")}>
           <input
