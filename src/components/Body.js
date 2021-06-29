@@ -1,9 +1,9 @@
 import React from "react";
 import cn from "classnames";
 import "../styles/Body.scss";
+import "../styles/mobile.scss";
 import colorpaper from "../images/colorpaper.jpg";
 import sunset from "../images/sunset.jpg";
-
 import sky from "../images/sky.jpg";
 
 const Body = () => {
@@ -109,6 +109,39 @@ const Body = () => {
           <div className={cn("deco_title")}>Curriculum</div>
         </div>
       </div>
+      <div className={cn("intro_section6")}>
+        <div className={cn("sub_title3")}>Class application</div>
+        <div className={cn("section_desc2")}>
+          수업은 매주 일요일 3시간씩(2시~5시) 4회를 한달동안 진행됩니다.
+          <br />
+          수강생은 한 클래스당 최소 5명에서~최대 10명까지만 받고있으며, 현재
+          수강신청 상황 및 수업관련 진행문의는 아래 연락처를 통해 문의해주세요.
+        </div>
+        <div className={cn("contact_summary")}>
+          <div className={cn("cs_item")}>ColorPaper</div>
+          <div className={cn("cs_item")}>Adredss Email</div>
+          <div className={cn("cs_item")}>Cost Hour</div>
+        </div>
+        <div className={cn("contact_form")}>
+          <input
+            className={cn("input")}
+            type="text"
+            placeholder="Your Email Adreess"
+          />
+          <textarea
+            className={cn("textarea")}
+            id="message_text"
+            placeholder="Your Message"
+          ></textarea>
+          <span className={cn("submit_bt")}>Send Email</span>
+        </div>
+        <div className={cn("contact_deco")}>Contact</div>
+        <div className={cn("contact_desc3")}>
+          개인 노트북을 지참하셔야 수업 참여가 가능합니다.
+        </div>
+        <div className={cn("top_bt")}>Move to Top</div>
+      </div>
+
       <div className="sns_section">
         <span className="sns_deco"></span>
         <ul className={cn("sns_section_ul")}>
